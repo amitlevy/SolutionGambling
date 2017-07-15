@@ -24,7 +24,7 @@ reddit = praw.Reddit(
     user_agent = 'Dealer bot v{} by /u/eganwall'.format(version)
 )
 
-admin_usernames = ['eganwall']
+admin_usernames = ['eganwall,captaincake8']
 
 def update_player_flair(player, flair, flair_class):
     print('Updating flair : [player = {}], [flair = {}], [class = {}]'.format(player, flair, flair_class))
